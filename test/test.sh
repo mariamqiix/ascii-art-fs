@@ -40,8 +40,8 @@ go run . "ABCDEFGHIJKLMNOPQRSTUVWXYZ" shadow | cat -e
 echo
 echo "---------------------------------------------------------"
 
-echo "go run . '\\!\" #$%&\'\"'\"'()*+,-./' thinkertoy | cat -e"
-go run . '\!" #$%&'"'"'()*+,-./' thinkertoy | cat -e 
+echo "go run . '\\!\"#$%&\'\"'\"'()*+,-./' thinkertoy | cat -e"
+go run . '\!"#$%&'"'"'()*+,-./' thinkertoy | cat -e 
 echo
 echo "---------------------------------------------------------"
 
